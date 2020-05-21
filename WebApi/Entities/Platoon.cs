@@ -7,6 +7,7 @@ namespace WebApi.Entities
 {
     public class Platoon
     {
+        public int Id { get; set; }
         public string Name { get; set; }
     }
 }

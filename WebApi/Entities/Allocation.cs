@@ -7,6 +7,7 @@ namespace WebApi.Entities
 {
     public class Allocation
     {
+        public int Id { get; set; }
         public Employee Employee { get; set; }
         public Project Project { get; set; }
         public double Percentage { get; set; }
